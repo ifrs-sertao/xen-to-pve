@@ -6,8 +6,8 @@ Via GUI, crie uma VM no pve para gerar o VMID.
 
 ## SEGUNDO PASSO
 
-1.Faça login via ssh no pve
-1.cd /pool-zfs-bacula/subvol-108-disk-0/XEN-MIGRATE
+1. Faça login via ssh no pve
+1. cd /pool-zfs-bacula/subvol-108-disk-0/XEN-MIGRATE
 
 Execute o comando abaixo:
 
@@ -28,10 +28,10 @@ e `local-zfs` é o pool de onde os discos ficarão armazenados.
 
 Possivelmente o boot estará corrompido.
 
-1.Coloque o `boot-repair-disk` no drive de DVD
-1.Modifique o boot para que o DVD seja o primeiro da lista
-1.Após os `boot-repair-disk` realizar as modificações, reinicie a Vm.
-1.Cairá no prompt do grub
+1. Coloque o `boot-repair-disk` no drive de DVD
+1. Modifique o boot para que o DVD seja o primeiro da lista
+1. Após os `boot-repair-disk` realizar as modificações, reinicie a Vm.
+1. Cairá no prompt do grub
 
 Execute os comandos:
 
